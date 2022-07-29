@@ -1,97 +1,9 @@
 
-body{
-background-color:white;
-}
-#title{
-  color:orange;
-text-align:left;
- padding:50px 0px 0px 30px;
-}
-header{
-  width:100%;
-height:330px;
-
-  background-image:url("https://images3.sportpursuit.info/media/catalog/category/resized/1400x445/RayBan-Category-Header9.webp") ;
-
-}
-#content{
-  background-color:green;
-  width:100%;
-  height:100%
-}
-#nav-left{
-  padding:10px 5px 10px 5px;
-  width:45%;
-  height800px:
-background-color:white;
-  color:black;
-float:left;
-  
-}
-#description{
-  padding:5px 5px 10px 5px;
-  text-align:left;
-  line-height: 36px;
-  font-family: verdana;
-}
-#survey-form{
-  text-align:center;
-}
-.radio-ckeck{
-  margin: 20px 5px 30px 5px;
-}
-textarea{
-width:40%;
-  height:130px;
-  border-radius:10px;
-  margin: 0px 10px 10px 20px;
-  padding:10px 5px 5px 10px;
-}
-.submi{
-  width:200px;
-  padding:10px 10px 10px 10px;
-  border-radius:50%;
-}
-#nav-right{
-  padding:10px 5px 10px 5px;
-  width:50%;
-  height:800px;
-background-color:white;
-  color:Black;
-
-  float:right;
-}
-.sideimg{
-  width:300px;
-  height:340px;
-  float:right;
-  padding:10px 5px 10px 10px;
-    border-radius:20px;
-
-}
-
-
-#name,#email,#number,select {
-    padding: 12px 9px 12px 9px;
-width: 50%;
-  margin:1px 5px 1px 5px;
-  border: 1px solid gray;
-  border-radius: 5px;
-}
-footer{
-  text-align:center;
-  width:100%
-
-}
-
-
-
-
-
-
+ <!DOCTYPE html>
 <html>
 
     <head>
+      <link rel="stylesheet" href="my.css">
       <title>
 Sunglasses
         </title>
