@@ -1,0 +1,184 @@
+
+body{
+background-color:white;
+}
+#title{
+  color:orange;
+text-align:left;
+ padding:50px 0px 0px 30px;
+}
+header{
+  width:100%;
+height:330px;
+
+  background-image:url("https://images3.sportpursuit.info/media/catalog/category/resized/1400x445/RayBan-Category-Header9.webp") ;
+
+}
+#content{
+  background-color:green;
+  width:100%;
+  height:100%
+}
+#nav-left{
+  padding:10px 5px 10px 5px;
+  width:45%;
+  height800px:
+background-color:white;
+  color:black;
+float:left;
+  
+}
+#description{
+  padding:5px 5px 10px 5px;
+  text-align:left;
+  line-height: 36px;
+  font-family: verdana;
+}
+#survey-form{
+  text-align:center;
+}
+.radio-ckeck{
+  margin: 20px 5px 30px 5px;
+}
+textarea{
+width:40%;
+  height:130px;
+  border-radius:10px;
+  margin: 0px 10px 10px 20px;
+  padding:10px 5px 5px 10px;
+}
+.submi{
+  width:200px;
+  padding:10px 10px 10px 10px;
+  border-radius:50%;
+}
+#nav-right{
+  padding:10px 5px 10px 5px;
+  width:50%;
+  height:800px;
+background-color:white;
+  color:Black;
+
+  float:right;
+}
+.sideimg{
+  width:300px;
+  height:340px;
+  float:right;
+  padding:10px 5px 10px 10px;
+    border-radius:20px;
+
+}
+
+
+#name,#email,#number,select {
+    padding: 12px 9px 12px 9px;
+width: 50%;
+  margin:1px 5px 1px 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+footer{
+  text-align:center;
+  width:100%
+
+}
+
+
+
+
+
+
+<html>
+
+    <head>
+      <title>
+Sunglasses
+        </title>
+      </head>
+    <body> 
+      <main>
+      <header>
+      <h1 id="title">Ray-Ban</h1>
+      </header>
+  <div id="content"><!--  content -->
+    <div id="nav-right">
+            
+        <img class="sideimg" src="//images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/fdc6aafdb84b51518a216905/pexels-photo-5387784.jpeg">
+        <p id="description">
+It's no surprise that Ray-Ban is the top pick for the best sunglasses brands in the world. 
+Today, Ray-Ban's iconic Wayfarer sunglasses are one of the world’s most recognizable fashion accessories. They’ve been worn by equally iconic figures — from Muhammad Ali and President John F. Kennedy to Bob Dylan and Michael Jackson — which has helped Ray-Ban define “cool” for generations.
+
+
+      </p>
+      </div>
+      <div id="nav-left">
+      <form  id="survey-form"
+        type="action">
+        <label for="name" id="name-label">Name :</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <br>
+         <label for="email" id="email-label">Email :</label>
+        <input type="email" id="email" placeholder="enter your email" required>
+        <br>
+        <label for="number" id="number-label">Number :</label>
+        <input type="number" placeholder="enter your number" id="number" min="0" max="10" >
+        <br>
+        <label>Choose your Type of Sunglasses</label>
+        <br>
+        <select id="dropdown">
+          <option value="ray ban">
+            ray ban
+          </option>
+           <option value="tom ford">
+       tom ford
+          </option>
+           <option value="american optical">
+            american optical
+          </option>
+        </select>
+        <br>
+        <div class="radio-ckeck">
+          <label>Your Vote &#128077<br>
+            you can choose more than one ...
+          </label>
+        <br>
+        <label>Ray ban</label>
+        <input type="checkbox" name="sunglass" value="Ray ban" checked>
+        <label>Tom ford</label>
+                <input type="checkbox" name="sunglass" value="Tom ford">
+        <label>American optical</label>
+                <input type="checkbox" name="sunglass" value="American optical"> 
+                                                           </div>
+<div class="radio-ckeck">
+          <label>Which one is the best?</label>
+        <br>
+        <label>Ray ban</label>
+        <input type="radio" name="sunglass" value="Ray ban" >
+        <label>Tom ford</label>
+                <input type="radio" name="sunglass" value="Tom ford">
+        <label>American optical</label>
+                <input type="radio" name="sunglass" value="American optical"> 
+                                                           </div>
+        
+                                                           <div>
+          <label>Additional comments </label>
+<br>
+ <textarea id="explain" name="tozih" class="additional">
+Any additional info ...
+                                                             </textarea>         </div>
+        <div>
+          <input type="submit" id="submit" value="send your opinion" class="submi">
+        </div>
+      </form>
+      </div>
+      
+      </div> <!--  content -->
+
+    </main>
+
+    </body>
+
+
+    </html>
+    
